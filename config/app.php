@@ -51,11 +51,14 @@ return [
     | your application so that it is used when running Artisan tasks.
     |
     */
+    // APP_URL=https://couch-shop.herokuapp.com
 
-    'url' => env('APP_URL', 'http://localhost'),
-
-    'asset_url' => env('ASSET_URL', null),
-
+    // 'url' => env('APP_URL', 'http://localhost'),
+    'url' => 'https://couch-shop.herokuapp.com',
+    
+    // 'asset_url' => env('ASSET_URL', null),
+    'asset_url' => 'https://couch-shop.herokuapp.com',
+    
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
